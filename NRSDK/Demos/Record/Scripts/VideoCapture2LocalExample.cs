@@ -54,7 +54,7 @@ namespace NRKernal.NRExamples
             {
                 string timeStamp = Time.time.ToString().Replace(".", "").Replace(":", "");
                 string filename = string.Format("Nreal_Record_{0}.mp4", timeStamp);
-                return Path.Combine(Application.persistentDataPath, filename);
+                return Path.Combine("/sdcard/Movies/", filename);
             }
         }
 
